@@ -4,7 +4,8 @@ export default function Footer() {
             <h2 className="text-center text-3xl font-bold">Commencez gratuitement</h2>
             <div className="grid grid-cols-2 grid-rows-1">
                 <div className="">
-                    <div className="flex justify-center rotate-5 content-center"><img src="/captures.png" alt="photo de l'application" width={150}/></div>
+                    <div className="flex justify-center pbe-3"><h2 className="content-center text-2xl protest-strike">Today's Mission</h2></div>
+                    <div className="flex justify-center rotate-5 content-center"><img src="/captures.png" alt="photo de l'application" width={250} className="max-w-[150] lg:max-w-[250]"/></div>
                     <div className="flex justify-center content-center"><img src="/playstore.png" alt="photo de l'application" width={150}/></div>
                 </div>
                 <div>
