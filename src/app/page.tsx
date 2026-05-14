@@ -31,7 +31,7 @@ export default function Home() {
             <div>
               <div className="p-5">
                 <div className="flex lg:flex-col gap-20 pbs-20 items-center justify-center">
-                  <div className="min-w-30 min-h-30 bg-[#E3EBF0] flex justify-center items-center rounded-full"><span className="text-5xl">1</span></div>
+                  <div className="min-w-30 min-h-30 bg-[#E3EBF0] flex justify-center items-center rounded-full"><span className="text-5xl font-bold">1</span></div>
                   <h2 className="text-2xl font-semibold text-center">Embarquez vos amis</h2>
                 </div>
                 <div>
@@ -45,7 +45,7 @@ export default function Home() {
               <div className="p-5">
                 <div className="flex lg:flex-col-reverse gap-20 pbs-20 items-center justify-center">
                   <h2 className="text-2xl font-semibold text-center">Créez un groupe avec vos amis</h2>
-                  <div className="min-w-30 min-h-30 bg-[#E3EBF0] flex justify-center items-center rounded-full"><span className="text-5xl">2</span></div>
+                  <div className="min-w-30 min-h-30 bg-[#E3EBF0] flex justify-center items-center rounded-full"><span className="text-5xl font-bold">2</span></div>
                 </div>
                 <div>
                   <p className="p-5">Créez votre groupe en vous dirigeant dans la page groupe. Invitez vos amis dans votre groupes et partagez des moments amusants.</p>
@@ -57,7 +57,7 @@ export default function Home() {
 
               <div className="p-5">
                 <div className="flex lg:flex-col gap-20 pbs-20 items-center justify-center">
-                  <div className="min-w-30 min-h-30 bg-[#E3EBF0] flex justify-center items-center rounded-full"><span className="text-5xl">3</span></div>
+                  <div className="min-w-30 min-h-30 bg-[#E3EBF0] flex justify-center items-center rounded-full"><span className="text-5xl font-bold">3</span></div>
                   <h2 className="text-2xl font-semibold text-center">Inventez des challenges</h2>
                 </div>
                 <div>
