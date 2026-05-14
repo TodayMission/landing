@@ -17,6 +17,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Today's mission",
   description: "Essayer l'application today's mission pour créer des groupes et des challenges avec vos amis",
+  openGraph: {
+    images: ["/og_original.png"],
+  },
 };
 
 export default function RootLayout({
