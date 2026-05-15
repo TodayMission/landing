@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   title: "Today's mission",
   description: "Essayer l'application today's mission pour créer des groupes et des challenges avec vos amis",
   openGraph: {
-    images: ["/oc_original.png"],
+    images: ["https://tdm.envoys.fr/oc_original.png"],
   },
 };
 
