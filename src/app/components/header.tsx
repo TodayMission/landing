@@ -1,5 +1,7 @@
 import PrimaryButton from "./button";
 
+export var playstore = "https://play.google.com/store/apps?hl=fr"
+
 export default function Header() {
     return (
         <header className="flex justify-between p-5 shadow-lg fixed min-w-full bg-white z-500">
@@ -10,7 +12,7 @@ export default function Header() {
     rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
     />
-            <div className="flex"><h2 className="content-center text-2xl protest-strike">Today's Mission</h2></div>
+            <div className="flex"><a href="/" className="content-center"><h2 className="content-center text-2xl protest-strike">Today's Mission</h2></a></div>
             {/* Desktop button */}
             <div className="hidden md:block">
                 <PrimaryButton text={"Télécharger"} />

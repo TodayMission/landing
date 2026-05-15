@@ -1,5 +1,6 @@
 import Image from "next/image";
 import PrimaryButton from "../components/button";
+import { playstore } from "../components/header";
 
 export default function Hero() {
     return (
@@ -24,13 +25,16 @@ export default function Hero() {
             </div>
         </div>
         <div className="flex justify-evenly p-10 lg:p-0 items-center lg:overflow-visible lg:-mbs-50">
+          <a href={playstore}>
+            
           <Image
             src="/playstore.png"
             alt="Télécharger sur Play Store"
             width={300}
             height={200}
             className="max-w-[200]"
-          />
+            />
+          </a>
           <PrimaryButton text="Télécharger"></PrimaryButton>
         </div>
       </section>
