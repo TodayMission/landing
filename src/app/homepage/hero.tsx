@@ -24,7 +24,7 @@ export default function Hero() {
             />
             </div>
         </div>
-        <div className="flex justify-evenly p-10 lg:p-0 items-center lg:overflow-visible lg:-mbs-50">
+        <div className="flex justify-evenly pbs-10 lg:p-0 items-center lg:overflow-visible lg:-mbs-50">
           <a href={playstore}>
             
           <Image
