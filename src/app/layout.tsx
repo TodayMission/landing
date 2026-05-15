@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Today's mission",
-  description: "Essayer l'application today's mission pour créer des groupes et des challenges avec vos amis",
+  title: "Today's mission | Créez vos challenges entres amis",
+  description: "Essayer l'application Today's Mission gratuitement pour envoyer des défis à vos amis sans qu'ils puissent se défiler.",
   openGraph: {
     images: ["https://tdm.envoys.fr/oc_original.png"],
   },
