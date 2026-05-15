@@ -6,8 +6,8 @@ export default function PreFooter() {
     return (
         <section>
         <div className="flex justify-center flex-col items-center bg-[#E3EBF0]">
-          <h2 className="pbs-10 pbe-5 max-w-[300] lg:max-w-max  text-center text-3xl font-bold">Surpassez vous avec Today’s Mission</h2>
-          <p className="px-10 pbs-5">Commencez à vous dépassez et à être le meilleur avec vos amis en téléchargeant l’application gratuitement.</p>
+          <h2 className="text-black pbs-10 pbe-5 max-w-[300] lg:max-w-max  text-center text-3xl font-bold">Surpassez vous avec Today’s Mission</h2>
+          <p className="px-10 pbs-5 text-black">Commencez à vous dépassez et à être le meilleur avec vos amis en téléchargeant l’application gratuitement.</p>
         <div className="flex justify-evenly py-10 lg:p-0 items-center lg:overflow-visible my-10">
           <a href={playstore}>
           <Image

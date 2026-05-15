@@ -44,7 +44,7 @@ function OneStep({index, title, description, reverse = false}: oneStepProps){
             <div>
               <div className="p-5">
                 <div className={`flex ${flex} lg:flex-col gap-10 pbs-20 items-center justify-center`}>
-                  <div className="min-w-30 min-h-30 bg-[#E3EBF0] flex justify-center items-center rounded-full"><span className="text-5xl font-bold">{index}</span></div>
+                  <div className="min-w-30 min-h-30 bg-[#E3EBF0] flex justify-center items-center rounded-full"><span className="text-5xl font-bold text-black">{index}</span></div>
                   <h2 className="text-2xl font-semibold text-center max-w-[255]">{title}</h2>
                 </div>
                 <div>

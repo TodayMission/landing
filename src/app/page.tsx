@@ -5,7 +5,7 @@ import PreFooter from "./homepage/prefooter";
 
 export default function Home() {
   return (
-    <main>
+    <main className="bg-white dark:bg-[#9A9A9A]">
       <Hero></Hero>
       <Step></Step>
       <Profile></Profile>
