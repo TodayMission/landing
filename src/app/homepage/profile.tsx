@@ -1,4 +1,6 @@
-import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
+"use client";
+
+import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
 import GroupsOutlinedIcon from '@mui/icons-material/GroupsOutlined';
 
 export default function Profile() {

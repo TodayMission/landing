@@ -2,6 +2,7 @@ import Hero from "./homepage/hero";
 import Step from "./homepage/step";
 import Profile from "./homepage/profile";
 import PreFooter from "./homepage/prefooter";
+import FAQ from "./components/faq";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <Hero></Hero>
       <Step></Step>
       <Profile></Profile>
+      <FAQ></FAQ>
       <PreFooter></PreFooter>
     </main>
   );
