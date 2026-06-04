@@ -75,7 +75,7 @@ export default function ContactPageComponent() {
 
             <button
               type="submit"
-              className="w-full rounded-xl bg-black py-3 font-medium text-white transition hover:bg-gray-800"
+              className="w-full rounded-xl bg-[#5FB8EF] py-3 font-medium text-white transition hover:bg-gray-800"
             >
               Envoyer le message
             </button>

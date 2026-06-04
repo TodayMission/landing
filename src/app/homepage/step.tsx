@@ -13,7 +13,7 @@ export default function Step() {
 
             <OneStep 
                 index={"2"}
-                title={"Créez un group avec vos amis"}
+                title={"Créez un groupe avec vos amis"}
                 description={"Créez votre groupe en vous dirigeant dans la page groupe. Invitez vos amis dans votre groupe et partagez des moments amusants."}
                 reverse={true}
             />
